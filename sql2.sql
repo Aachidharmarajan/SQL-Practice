@@ -20,7 +20,7 @@ name varchar(40) not null,
 email varchar(30), birthdate date);
 
 create table message(
-id int auto_increment,messageId int,messae varchar(300) not null,primary key (id, messageId));
+id int auto_increment,messageId int,message varchar(300) not null,primary key (id, messageId));
 delimiter //
 create trigger
 check_null_dob
