@@ -15,7 +15,7 @@ values (101,27, "James"),
 (104, -39, "Angela");
 select* From customers;
 
-create table customers1(id int anto_increment primary key,
+create table customers1(id int auto_increment primary key,
 name varchar(40) not null,
 email varchar(30), birthdate date);
 
